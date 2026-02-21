@@ -9,9 +9,27 @@ body, p
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-brand 
+
+.navbar {
+    background: linear-gradient(90deg, #9c2a2a, #171798) !important;
+}
+
+
+.navbar-brand,
+.navbar .nav-link 
 {
-    font-weight: bold;
+    color: #f8f9fa !important;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav-link:hover 
+{
+    color: #ff9800 !important;
+}
+
+.navbar .nav-link.active 
+{
+    color: #38b61c !important;
 }
 
 
