@@ -1,0 +1,63 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.navbar-brand 
+{
+    font-weight: bold;
+}
+
+
+.logo-img 
+{
+    width: 40px;
+    height: auto;
+    margin-top: 5px;
+}
+
+
+h1, h2, h3 
+{
+    color: #989822;
+}
+
+
+
+#our-values h3 
+{
+    color: #2c055d;
+}
+
+#our-values .col-lg-3:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.card 
+{
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover 
+{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-img-top 
+{
+    height: 250px;
+    object-fit: cover;
+}
+
+
+footer 
+{
+    font-size: 0.9rem;
+}
