@@ -35,8 +35,11 @@ h1, h2, h3
     color: #2c055d;
 }
 
-#our-values .col-lg-3:hover {
-    transform: translateY(-5px);
+
+#our-values .col-lg-3:hover 
+{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(231, 15, 15, 0.864);
 }
 
 
